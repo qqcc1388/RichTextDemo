@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		245F8E28902A6D7AB3244961 /* Pods_RichTextDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53758371826159740AA4152D /* Pods_RichTextDemo.framework */; };
+		2AFBF7B521D5C239002B9875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7B421D5C239002B9875 /* AppDelegate.swift */; };
+		2AFBF7B721D5C239002B9875 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7B621D5C239002B9875 /* ViewController.swift */; };
+		2AFBF7BA21D5C239002B9875 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AFBF7B821D5C239002B9875 /* Main.storyboard */; };
+		2AFBF7BC21D5C23B002B9875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFBF7BB21D5C23B002B9875 /* Assets.xcassets */; };
+		2AFBF7BF21D5C23B002B9875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AFBF7BD21D5C23B002B9875 /* LaunchScreen.storyboard */; };
+		2AFBF7DB21D5C2ED002B9875 /* GKLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7C921D5C2ED002B9875 /* GKLoadingView.m */; };
+		2AFBF7DC21D5C2ED002B9875 /* UIScrollView+GKGestureHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7CB21D5C2ED002B9875 /* UIScrollView+GKGestureHandle.m */; };
+		2AFBF7DD21D5C2ED002B9875 /* GKScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7CE21D5C2ED002B9875 /* GKScrollView.m */; };
+		2AFBF7DE21D5C2ED002B9875 /* GKPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7D121D5C2ED002B9875 /* GKPhotoBrowser.m */; };
+		2AFBF7DF21D5C2ED002B9875 /* GKPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7D321D5C2ED002B9875 /* GKPhoto.m */; };
+		2AFBF7E021D5C2ED002B9875 /* GKWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7D521D5C2ED002B9875 /* GKWebImageManager.m */; };
+		2AFBF7E121D5C2ED002B9875 /* GKPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AFBF7D721D5C2ED002B9875 /* GKPhotoBrowser.bundle */; };
+		2AFBF7E221D5C2ED002B9875 /* UIImage+GKDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7D921D5C2ED002B9875 /* UIImage+GKDecoder.m */; };
+		2AFBF7E321D5C2ED002B9875 /* GKPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7DA21D5C2ED002B9875 /* GKPhotoView.m */; };
+		2AFBF7E821D5C522002B9875 /* RichTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7E721D5C522002B9875 /* RichTextView.swift */; };
+		2AFBF7EC21D5C58E002B9875 /* HXQLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7E921D5C58E002B9875 /* HXQLabel.swift */; };
+		2AFBF7ED21D5C58E002B9875 /* HXQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7EA21D5C58E002B9875 /* HXQView.swift */; };
+		2AFBF7EE21D5C58E002B9875 /* HXQButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7EB21D5C58E002B9875 /* HXQButton.swift */; };
+		2AFBF7F121D5C5D3002B9875 /* MBProgressHUD+FastKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7EF21D5C5D3002B9875 /* MBProgressHUD+FastKit.swift */; };
+		2AFBF7F221D5C5D3002B9875 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AFBF7F021D5C5D3002B9875 /* MBProgressHUD.bundle */; };
+		2AFBF7F421D5C67E002B9875 /* UIImage+FastKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7F321D5C67E002B9875 /* UIImage+FastKit.swift */; };
+		2AFBF7F621D5C98E002B9875 /* UIView+FastKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7F521D5C98E002B9875 /* UIView+FastKit.swift */; };
+		2AFBF7FA21D5F636002B9875 /* RichTextDemo1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7F921D5F636002B9875 /* RichTextDemo1VC.swift */; };
+		2AFBF7FC21D5F649002B9875 /* RichTextDemo2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7FB21D5F649002B9875 /* RichTextDemo2VC.swift */; };
+		2AFBF7FE21D5F655002B9875 /* RichTextDemo3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7FD21D5F655002B9875 /* RichTextDemo3VC.swift */; };
+		2AFBF80021D6019A002B9875 /* RichTextHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF7FF21D6019A002B9875 /* RichTextHeaderView.swift */; };
+		2AFBF80221D6095A002B9875 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBF80121D6095A002B9875 /* LoadingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AFBF7B121D5C239002B9875 /* RichTextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichTextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFBF7B421D5C239002B9875 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AFBF7B621D5C239002B9875 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AFBF7B921D5C239002B9875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AFBF7BB21D5C23B002B9875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AFBF7BE21D5C23B002B9875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AFBF7C021D5C23B002B9875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AFBF7C721D5C2ED002B9875 /* GKWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKWebImageManager.h; sourceTree = "<group>"; };
+		2AFBF7C921D5C2ED002B9875 /* GKLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKLoadingView.m; sourceTree = "<group>"; };
+		2AFBF7CA21D5C2ED002B9875 /* GKLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKLoadingView.h; sourceTree = "<group>"; };
+		2AFBF7CB21D5C2ED002B9875 /* UIScrollView+GKGestureHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+GKGestureHandle.m"; sourceTree = "<group>"; };
+		2AFBF7CC21D5C2ED002B9875 /* GKPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKPhoto.h; sourceTree = "<group>"; };
+		2AFBF7CD21D5C2ED002B9875 /* GKWebImageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKWebImageProtocol.h; sourceTree = "<group>"; };
+		2AFBF7CE21D5C2ED002B9875 /* GKScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKScrollView.m; sourceTree = "<group>"; };
+		2AFBF7CF21D5C2ED002B9875 /* GKPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKPhotoView.h; sourceTree = "<group>"; };
+		2AFBF7D021D5C2ED002B9875 /* UIImage+GKDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GKDecoder.h"; sourceTree = "<group>"; };
+		2AFBF7D121D5C2ED002B9875 /* GKPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKPhotoBrowser.m; sourceTree = "<group>"; };
+		2AFBF7D221D5C2ED002B9875 /* GKPhotoBrowserConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKPhotoBrowserConfigure.h; sourceTree = "<group>"; };
+		2AFBF7D321D5C2ED002B9875 /* GKPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKPhoto.m; sourceTree = "<group>"; };
+		2AFBF7D421D5C2ED002B9875 /* UIScrollView+GKGestureHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+GKGestureHandle.h"; sourceTree = "<group>"; };
+		2AFBF7D521D5C2ED002B9875 /* GKWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKWebImageManager.m; sourceTree = "<group>"; };
+		2AFBF7D621D5C2ED002B9875 /* GKScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKScrollView.h; sourceTree = "<group>"; };
+		2AFBF7D721D5C2ED002B9875 /* GKPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GKPhotoBrowser.bundle; sourceTree = "<group>"; };
+		2AFBF7D821D5C2ED002B9875 /* GKPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKPhotoBrowser.h; sourceTree = "<group>"; };
+		2AFBF7D921D5C2ED002B9875 /* UIImage+GKDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GKDecoder.m"; sourceTree = "<group>"; };
+		2AFBF7DA21D5C2ED002B9875 /* GKPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKPhotoView.m; sourceTree = "<group>"; };
+		2AFBF7E621D5C4E4002B9875 /* Swift-Bridge-Objective-C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridge-Objective-C.h"; sourceTree = "<group>"; };
+		2AFBF7E721D5C522002B9875 /* RichTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichTextView.swift; sourceTree = "<group>"; };
+		2AFBF7E921D5C58E002B9875 /* HXQLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXQLabel.swift; sourceTree = "<group>"; };
+		2AFBF7EA21D5C58E002B9875 /* HXQView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXQView.swift; sourceTree = "<group>"; };
+		2AFBF7EB21D5C58E002B9875 /* HXQButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXQButton.swift; sourceTree = "<group>"; };
+		2AFBF7EF21D5C5D3002B9875 /* MBProgressHUD+FastKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MBProgressHUD+FastKit.swift"; sourceTree = "<group>"; };
+		2AFBF7F021D5C5D3002B9875 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		2AFBF7F321D5C67E002B9875 /* UIImage+FastKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+FastKit.swift"; sourceTree = "<group>"; };
+		2AFBF7F521D5C98E002B9875 /* UIView+FastKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FastKit.swift"; sourceTree = "<group>"; };
+		2AFBF7F921D5F636002B9875 /* RichTextDemo1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextDemo1VC.swift; sourceTree = "<group>"; };
+		2AFBF7FB21D5F649002B9875 /* RichTextDemo2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextDemo2VC.swift; sourceTree = "<group>"; };
+		2AFBF7FD21D5F655002B9875 /* RichTextDemo3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextDemo3VC.swift; sourceTree = "<group>"; };
+		2AFBF7FF21D6019A002B9875 /* RichTextHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextHeaderView.swift; sourceTree = "<group>"; };
+		2AFBF80121D6095A002B9875 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		53758371826159740AA4152D /* Pods_RichTextDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RichTextDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8949B03CF0039081DD3C4F87 /* Pods-RichTextDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichTextDemo.debug.xcconfig"; path = "Target Support Files/Pods-RichTextDemo/Pods-RichTextDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E9AC58DC3000E8A3365C558B /* Pods-RichTextDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichTextDemo.release.xcconfig"; path = "Target Support Files/Pods-RichTextDemo/Pods-RichTextDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AFBF7AE21D5C239002B9875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245F8E28902A6D7AB3244961 /* Pods_RichTextDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AFBF7A821D5C239002B9875 = {
+			isa = PBXGroup;
+			children = (
+				2AFBF7B321D5C239002B9875 /* RichTextDemo */,
+				2AFBF7B221D5C239002B9875 /* Products */,
+				E402241D4BA46071DC5A85AA /* Pods */,
+				DEC0831BCF4128A6C5DE29B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AFBF7B221D5C239002B9875 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AFBF7B121D5C239002B9875 /* RichTextDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AFBF7B321D5C239002B9875 /* RichTextDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2AFBF7C621D5C2ED002B9875 /* GKPhotoBrowser */,
+				2AFBF7B421D5C239002B9875 /* AppDelegate.swift */,
+				2AFBF7B621D5C239002B9875 /* ViewController.swift */,
+				2AFBF7F921D5F636002B9875 /* RichTextDemo1VC.swift */,
+				2AFBF7FB21D5F649002B9875 /* RichTextDemo2VC.swift */,
+				2AFBF7FD21D5F655002B9875 /* RichTextDemo3VC.swift */,
+				2AFBF7E721D5C522002B9875 /* RichTextView.swift */,
+				2AFBF80121D6095A002B9875 /* LoadingView.swift */,
+				2AFBF7FF21D6019A002B9875 /* RichTextHeaderView.swift */,
+				2AFBF7EB21D5C58E002B9875 /* HXQButton.swift */,
+				2AFBF7E921D5C58E002B9875 /* HXQLabel.swift */,
+				2AFBF7EA21D5C58E002B9875 /* HXQView.swift */,
+				2AFBF7F321D5C67E002B9875 /* UIImage+FastKit.swift */,
+				2AFBF7B821D5C239002B9875 /* Main.storyboard */,
+				2AFBF7F021D5C5D3002B9875 /* MBProgressHUD.bundle */,
+				2AFBF7EF21D5C5D3002B9875 /* MBProgressHUD+FastKit.swift */,
+				2AFBF7BB21D5C23B002B9875 /* Assets.xcassets */,
+				2AFBF7BD21D5C23B002B9875 /* LaunchScreen.storyboard */,
+				2AFBF7F521D5C98E002B9875 /* UIView+FastKit.swift */,
+				2AFBF7C021D5C23B002B9875 /* Info.plist */,
+				2AFBF7E621D5C4E4002B9875 /* Swift-Bridge-Objective-C.h */,
+			);
+			path = RichTextDemo;
+			sourceTree = "<group>";
+		};
+		2AFBF7C621D5C2ED002B9875 /* GKPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				2AFBF7C721D5C2ED002B9875 /* GKWebImageManager.h */,
+				2AFBF7C821D5C2ED002B9875 /* GKLoadingView */,
+				2AFBF7CB21D5C2ED002B9875 /* UIScrollView+GKGestureHandle.m */,
+				2AFBF7CC21D5C2ED002B9875 /* GKPhoto.h */,
+				2AFBF7CD21D5C2ED002B9875 /* GKWebImageProtocol.h */,
+				2AFBF7CE21D5C2ED002B9875 /* GKScrollView.m */,
+				2AFBF7CF21D5C2ED002B9875 /* GKPhotoView.h */,
+				2AFBF7D021D5C2ED002B9875 /* UIImage+GKDecoder.h */,
+				2AFBF7D121D5C2ED002B9875 /* GKPhotoBrowser.m */,
+				2AFBF7D221D5C2ED002B9875 /* GKPhotoBrowserConfigure.h */,
+				2AFBF7D321D5C2ED002B9875 /* GKPhoto.m */,
+				2AFBF7D421D5C2ED002B9875 /* UIScrollView+GKGestureHandle.h */,
+				2AFBF7D521D5C2ED002B9875 /* GKWebImageManager.m */,
+				2AFBF7D621D5C2ED002B9875 /* GKScrollView.h */,
+				2AFBF7D721D5C2ED002B9875 /* GKPhotoBrowser.bundle */,
+				2AFBF7D821D5C2ED002B9875 /* GKPhotoBrowser.h */,
+				2AFBF7D921D5C2ED002B9875 /* UIImage+GKDecoder.m */,
+				2AFBF7DA21D5C2ED002B9875 /* GKPhotoView.m */,
+			);
+			path = GKPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		2AFBF7C821D5C2ED002B9875 /* GKLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				2AFBF7C921D5C2ED002B9875 /* GKLoadingView.m */,
+				2AFBF7CA21D5C2ED002B9875 /* GKLoadingView.h */,
+			);
+			path = GKLoadingView;
+			sourceTree = "<group>";
+		};
+		DEC0831BCF4128A6C5DE29B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53758371826159740AA4152D /* Pods_RichTextDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E402241D4BA46071DC5A85AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8949B03CF0039081DD3C4F87 /* Pods-RichTextDemo.debug.xcconfig */,
+				E9AC58DC3000E8A3365C558B /* Pods-RichTextDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AFBF7B021D5C239002B9875 /* RichTextDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFBF7C321D5C23B002B9875 /* Build configuration list for PBXNativeTarget "RichTextDemo" */;
+			buildPhases = (
+				04A7761B4CEEA3443322E5EF /* [CP] Check Pods Manifest.lock */,
+				2AFBF7AD21D5C239002B9875 /* Sources */,
+				2AFBF7AE21D5C239002B9875 /* Frameworks */,
+				2AFBF7AF21D5C239002B9875 /* Resources */,
+				F3059F591CEEFCEC3EEA3B15 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RichTextDemo;
+			productName = RichTextDemo;
+			productReference = 2AFBF7B121D5C239002B9875 /* RichTextDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AFBF7A921D5C239002B9875 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = hxq;
+				TargetAttributes = {
+					2AFBF7B021D5C239002B9875 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2AFBF7AC21D5C239002B9875 /* Build configuration list for PBXProject "RichTextDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AFBF7A821D5C239002B9875;
+			productRefGroup = 2AFBF7B221D5C239002B9875 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AFBF7B021D5C239002B9875 /* RichTextDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AFBF7AF21D5C239002B9875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFBF7BF21D5C23B002B9875 /* LaunchScreen.storyboard in Resources */,
+				2AFBF7E121D5C2ED002B9875 /* GKPhotoBrowser.bundle in Resources */,
+				2AFBF7F221D5C5D3002B9875 /* MBProgressHUD.bundle in Resources */,
+				2AFBF7BC21D5C23B002B9875 /* Assets.xcassets in Resources */,
+				2AFBF7BA21D5C239002B9875 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04A7761B4CEEA3443322E5EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RichTextDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3059F591CEEFCEC3EEA3B15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RichTextDemo/Pods-RichTextDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RichTextDemo/Pods-RichTextDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AFBF7AD21D5C239002B9875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFBF7DD21D5C2ED002B9875 /* GKScrollView.m in Sources */,
+				2AFBF7EE21D5C58E002B9875 /* HXQButton.swift in Sources */,
+				2AFBF7F421D5C67E002B9875 /* UIImage+FastKit.swift in Sources */,
+				2AFBF7F121D5C5D3002B9875 /* MBProgressHUD+FastKit.swift in Sources */,
+				2AFBF7DB21D5C2ED002B9875 /* GKLoadingView.m in Sources */,
+				2AFBF7EC21D5C58E002B9875 /* HXQLabel.swift in Sources */,
+				2AFBF7DC21D5C2ED002B9875 /* UIScrollView+GKGestureHandle.m in Sources */,
+				2AFBF80021D6019A002B9875 /* RichTextHeaderView.swift in Sources */,
+				2AFBF7DE21D5C2ED002B9875 /* GKPhotoBrowser.m in Sources */,
+				2AFBF7E221D5C2ED002B9875 /* UIImage+GKDecoder.m in Sources */,
+				2AFBF7F621D5C98E002B9875 /* UIView+FastKit.swift in Sources */,
+				2AFBF7FE21D5F655002B9875 /* RichTextDemo3VC.swift in Sources */,
+				2AFBF7FC21D5F649002B9875 /* RichTextDemo2VC.swift in Sources */,
+				2AFBF7E021D5C2ED002B9875 /* GKWebImageManager.m in Sources */,
+				2AFBF7E821D5C522002B9875 /* RichTextView.swift in Sources */,
+				2AFBF7B721D5C239002B9875 /* ViewController.swift in Sources */,
+				2AFBF7E321D5C2ED002B9875 /* GKPhotoView.m in Sources */,
+				2AFBF7FA21D5F636002B9875 /* RichTextDemo1VC.swift in Sources */,
+				2AFBF7B521D5C239002B9875 /* AppDelegate.swift in Sources */,
+				2AFBF7DF21D5C2ED002B9875 /* GKPhoto.m in Sources */,
+				2AFBF7ED21D5C58E002B9875 /* HXQView.swift in Sources */,
+				2AFBF80221D6095A002B9875 /* LoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AFBF7B821D5C239002B9875 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AFBF7B921D5C239002B9875 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AFBF7BD21D5C23B002B9875 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AFBF7BE21D5C23B002B9875 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AFBF7C121D5C23B002B9875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AFBF7C221D5C23B002B9875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AFBF7C421D5C23B002B9875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8949B03CF0039081DD3C4F87 /* Pods-RichTextDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RichTextDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hxq.RichTextDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/RichTextDemo/Swift-Bridge-Objective-C.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AFBF7C521D5C23B002B9875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9AC58DC3000E8A3365C558B /* Pods-RichTextDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RichTextDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hxq.RichTextDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/RichTextDemo/Swift-Bridge-Objective-C.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AFBF7AC21D5C239002B9875 /* Build configuration list for PBXProject "RichTextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFBF7C121D5C23B002B9875 /* Debug */,
+				2AFBF7C221D5C23B002B9875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFBF7C321D5C23B002B9875 /* Build configuration list for PBXNativeTarget "RichTextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFBF7C421D5C23B002B9875 /* Debug */,
+				2AFBF7C521D5C23B002B9875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AFBF7A921D5C239002B9875 /* Project object */;
+}
